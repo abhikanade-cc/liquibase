@@ -1,4 +1,4 @@
-CREATE TABLE "Clients" (
+CREATE TABLE "Clients_2" (
 	"CustomerID" nchar (5) NOT NULL ,
 	"CompanyName" nvarchar (40) NOT NULL ,
 	"ContactName" nvarchar (30) NULL ,
@@ -10,17 +10,9 @@ CREATE TABLE "Clients" (
 	"Country" nvarchar (15) NULL ,
 	"Phone" nvarchar (24) NULL ,
 	"Fax" nvarchar (24) NULL ,
-	CONSTRAINT "PK_Customers" PRIMARY KEY  CLUSTERED 
+	CONSTRAINT "PK_Clients_2" PRIMARY KEY  CLUSTERED 
 	(
 		"CustomerID"
 	)
 )
-GO
- CREATE  INDEX "City" ON "dbo"."Customers"("City")
-GO
- CREATE  INDEX "CompanyName" ON "dbo"."Customers"("CompanyName")
-GO
- CREATE  INDEX "PostalCode" ON "dbo"."Customers"("PostalCode")
-GO
- CREATE  INDEX "Region" ON "dbo"."Customers"("Region")
-GO
+
