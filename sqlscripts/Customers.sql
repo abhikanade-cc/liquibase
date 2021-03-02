@@ -1,4 +1,4 @@
-CREATE TABLE "Customers" (
+CREATE TABLE "Clients" (
 	"CustomerID" nchar (5) NOT NULL ,
 	"CompanyName" nvarchar (40) NOT NULL ,
 	"ContactName" nvarchar (30) NULL ,
