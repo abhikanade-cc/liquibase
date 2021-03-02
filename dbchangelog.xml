@@ -18,9 +18,9 @@
           <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/jobs_insert.sql"/>
   </changeSet>
   <changeSet id="5" author="user4">
-          <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/Customers.sql"/>
+          <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/Clients.sql"/>
   </changeSet>
   <changeSet id="6" author="user4">
-          <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/insert_customers.sql"/>
+          <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/insert_Clients.sql"/>
   </changeSet>
 </databaseChangeLog>
