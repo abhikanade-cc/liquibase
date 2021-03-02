@@ -20,7 +20,7 @@
   <changeSet id="5" author="user4">
           <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/Customers.sql"/>
   </changeSet>
-  <changeSet id="6" author="user5">
+  <changeSet id="6" author="user4">
           <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/insert_customers.sql"/>
   </changeSet>
 </databaseChangeLog>
