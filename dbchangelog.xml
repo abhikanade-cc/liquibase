@@ -18,6 +18,9 @@
           <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/jobs_insert.sql"/>
   </changeSet>
   <changeSet id="5" author="user4">
-          <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/load-sample-data-using-polybase.sql"/>
+          <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/Customers.sql"/>
+  </changeSet>
+  <changeSet id="5" author="user5">
+          <sqlFile encoding="utf8" path="/appz/scripts/LiquibaseProj/sqlscripts/insert_customers.sql"/>
   </changeSet>
 </databaseChangeLog>
